@@ -8,7 +8,7 @@ int findFirst(vector<int>& nums, int target) {
         int mid = left + (right - left) / 2;
         if (nums[mid] == target) {
             first = mid;
-            right = mid - 1; // Keep searching in the left half
+            right = mid - 1; 
         } else if (nums[mid] < target) {
             left = mid + 1;
         } else {
