@@ -24,7 +24,7 @@ int findLast(vector<int>& nums, int target) {
         int mid = left + (right - left) / 2;
         if (nums[mid] == target) {
             last = mid;
-            left = mid + 1; // Keep searching in the right half
+            left = mid + 1; 
         } else if (nums[mid] < target) {
             left = mid + 1;
         } else {
