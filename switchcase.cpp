@@ -7,11 +7,11 @@ int main(){
     switch (a)
     {
     case 1:
-        cout<<"excelent";
+        cout<<"Excelent";
         break;
     case 2:
-    cout<<"Good";
-    break;
+        cout<<"Good";
+        break;
     
     default:
     cout<<"invalid";
