@@ -7,7 +7,7 @@ int main()
     ptr = & a;
   // exact value
     cout<<*ptr<<endl;
-    // adress of pointer
+  // adress of pointer
     cout<<& ptr<<endl;
     //adress of value 
     cout<<& a<<endl;
