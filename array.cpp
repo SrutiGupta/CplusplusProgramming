@@ -7,7 +7,7 @@ int main()
     {
        cout<<a[i]<<endl;
     }
-    cout<<"the 3rd endex:-";
+    cout<<"The 3rd endex of the Array:-";
     cout<<a[2];
     return 0;
 }
