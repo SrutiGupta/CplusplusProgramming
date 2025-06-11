@@ -10,7 +10,7 @@ int main(){
         cout<<"excelent";
         break;
     case 2:
-    cout<<"good";
+    cout<<"Good";
     break;
     
     default:
