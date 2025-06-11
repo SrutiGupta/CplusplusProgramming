@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-int main(){
+int main()
+{
     int a;
     cout<<"enter age"<<endl;
     cin>>a;
@@ -14,7 +15,7 @@ int main(){
         break;
     
     default:
-    cout<<"invalid";
+        cout<<"invalid";
         break;
     }
 }
